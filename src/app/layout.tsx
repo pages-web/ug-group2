@@ -15,11 +15,11 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: new URL("https://mta-front-end.vercel.app/"),
-    title: "MTA",
+    title: "UG-Group",
     description,
-    keywords: ["mta"],
+    keywords: ["UG-Group"],
     openGraph: {
-      title: "MTA",
+      title: "UG-Group",
       description,
       images: [
         {

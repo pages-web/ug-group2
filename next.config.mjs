@@ -6,16 +6,11 @@ const nextConfig = {
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOnsibmFtZSI6Im10YSIsImNyZWF0ZWRBdCI6IjIwMjQtMTAtMTVUMDY6MDM6MDUuMDU4WiIsInVzZXJHcm91cElkIjoiNEVIeWRUREFpczJMZFFuWm4iLCJleHBpcmVEYXRlIjoiMjAyNC0xMS0xNFQxMDowMDozNy4zMjZaIiwibm9FeHBpcmUiOnRydWUsImFsbG93QWxsUGVybWlzc2lvbiI6dHJ1ZSwiX2lkIjoiUDNSYVFRX20wNWgyNzlkQlVrNlVyIiwiX192IjowfSwiaWF0IjoxNzI4OTg2NTAzfQ.5yvyzmgFe3YNV4uH5DZpd-wTpfwHNaDZoTpy6vuVWx4",
   },
   images: {
-    remotePatterns: [
-      {
-        hostname: "utfs.io",
-      },
-      {
-        hostname: "cdn.discordapp.com",
-      },
-      {
-        hostname: "media.discordapp.net",
-      },
+    domains: [
+      "images-na.ssl-images-amazon.com",
+      "utfs.io",
+      "cdn.discordapp.com",
+      "media.discordapp.net",
     ],
   },
 };
