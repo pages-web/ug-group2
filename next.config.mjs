@@ -11,6 +11,7 @@ const nextConfig = {
       "utfs.io",
       "cdn.discordapp.com",
       "media.discordapp.net",
+      "t4.ftcdn.net", // Added domain
     ],
   },
 };

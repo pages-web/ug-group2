@@ -28,7 +28,7 @@ export const Navbar = () => {
             <Link href="/about">
               <p>Компани</p>
             </Link>
-            <Link href="">
+            <Link href="/project">
               <p>Төсөл</p>
             </Link>
             <Link href="/bisuness">
@@ -40,14 +40,16 @@ export const Navbar = () => {
             <Link href="">
               <p>Хүний нөөц</p>
             </Link>
-            <Link href="">
+            <Link href="/news">
               <p>Мэдээ</p>
             </Link>
           </div>
         </div>
-        <div className="flex h-[68px] w-[24%] items-center  justify-center rounded-[100px] bg-[#C79D58] text-white">
-          Хамтран ажиллах
-        </div>
+        <Link href="/partnership">
+          <p className="flex h-[68px] items-center justify-center rounded-[100px] bg-[#C79D58] px-[30px] text-white">
+            Хамтран ажиллах
+          </p>
+        </Link>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ interface MainLayoutProps {
 
 const MainLayout = ({ children }: MainLayoutProps) => {
   return (
-    <div className="w-full bg-[#F4F4F4]">
+    <div className="w-full bg-[#f7f2e8]">
       <Navbar />
       {/* <ScrollTop /> */}
       <div className="flex h-full flex-col">
